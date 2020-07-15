@@ -66,3 +66,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### TODO
+
+NPC Creator, Building/Town/City/Location Creator
+CRUD API for all of the above (SPRING BOOT or Vert.x)  [Springboot for future, Vert.x for current job]
+
+# cat-creator

@@ -13,8 +13,12 @@
   }
 }
 
-.App-header {
+body {
   background-color: #282c34;
+}
+
+.App-header {
+  background: #282c34 url('../../assets/images/iron-golem.jpg') no-repeat fixed center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +29,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #5d6b9c;
 }
 
 @keyframes App-logo-spin {

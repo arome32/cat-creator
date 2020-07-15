@@ -1,0 +1,134 @@
+.column {
+    float: left;
+    width: 19%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.add-player-button{
+    border: 1px white solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    left:90%;
+    top: 90%;
+    background-color: white;
+    color: black;
+}
+
+.add-player-button:hover{
+    background-color: black;
+    border: 1px black solid;
+    color: white;
+}
+
+.modal {
+    position: relative;
+    top: 33%;
+    left: 33%;
+}
+
+.paper {
+    position: 'absolute';
+    width: 400px;
+    background-color: #ffffff;
+    border: '2px solid #000';
+    padding: 2%;
+}
+
+.player {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.player:hover {
+    border: 1px solid red;
+    background-color: white;
+}
+
+.player-image{
+    height: 100px;
+    border-radius: 50%;
+}
+
+.player-image-sm{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.add-player {
+    border: black 1px solid;
+    height: 225px;
+    text-align: center;
+    margin: 4px 4px;
+    padding: 10px 0;
+    background-color: lightgray;
+    border-radius: 2%;
+}
+
+.add-player:hover {
+    background-color: white;
+}
+
+.remove-player {
+    margin: auto;
+    display: flex !important;
+    margin-top: 1%;
+}
+
+.remove-player:hover {
+    color: #3f51b5;
+    cursor: pointer;
+}
+
+.selected-players-container{
+    text-align: center;
+    border-left: 1px solid #f50057;
+    height: 100%;
+}
+
+.selected-players {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    color: white;
+    border: 1px solid rgba(63, 81, 181, 0.5);
+    margin-bottom: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.selected-player-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected-player-name {
+    display: flex;
+    align-items: center;
+}
+
+.selected-player-delete {
+    position: absolute;
+    right: 1.5%;
+    z-index: 9999999;
+    margin-top: 1%;
+}
+
+.remove-selected-player {
+    display: flex !important;;
+}
+
+.remove-selected-player:hover {
+    color: #3f51b5;
+    cursor: pointer;
+}

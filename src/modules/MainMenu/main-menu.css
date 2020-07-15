@@ -1,0 +1,35 @@
+.main-menu {
+  /* border: 3px solid #5d6b9c; */
+  width: 20rem;
+}
+
+.mm-button1 {
+  width: 17rem;
+  height: 2rem;
+  position: relative;
+  border: 1px solid #504747;
+  border-bottom: none;
+  margin: 20px;
+  display: inline-block;
+  transform: skewX(-30deg);
+}
+
+.mm-button1 a {
+  display: block; /* block or inline-block is needed */
+  text-decoration: none;
+  padding: 5px 10px;
+  font: 30px/1 sans-serif;
+  transform: skew(30deg); /* UNSKEW */
+  color: inherit;
+  line-height: 65%;
+}
+
+.mm-button1:hover{
+  background: linear-gradient( #5d6b9c, #5d6b9c00);
+  border: none;
+  border-bottom: 3px solid #5d6b9c;
+}
+
+.mm-button2 {
+  border: 1px solid greenyellow;
+}

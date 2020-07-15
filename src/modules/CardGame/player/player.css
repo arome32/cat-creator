@@ -1,0 +1,29 @@
+.player {
+    border: black 1px solid;
+    height: 225px;
+    text-align: center;
+    margin: 4px 4px;
+    padding: 10px 0;
+    color: white;
+    border-radius: 2%;
+}
+
+.player:hover {
+    background-color: black;
+}
+
+.player-content {
+    position: relative;
+    top: -20px;
+}
+
+.delete-player {
+    position: relative;
+    left: 41%;
+    font-size: 20px;
+    z-index: 9999999999;
+}
+
+.delete-player:hover {
+    color: red;
+}
